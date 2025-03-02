@@ -180,3 +180,7 @@ input.button.et-import-data {
 .envo-shopper-notice {
   position: relative;
 }
+
+.media-types-required-info {
+  display: none;
+}
