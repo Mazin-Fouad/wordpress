@@ -1,0 +1,64 @@
+# WordPress core files that shouldn't be tracked
+wp-config.php
+wp-config-docker.php
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/cache/
+wp-content/backups/
+wp-content/wp-cache-config.php
+wp-admin/
+wp-includes/
+
+# Plugins that are usually managed by Composer or other package managers
+wp-content/plugins/*
+!wp-content/plugins/image-carousel-shortcode/
+
+# Theme files that should be ignored
+wp-content/themes/*/node_modules/
+wp-content/themes/*/vendor/
+
+# Log files
+*.log
+error_log
+access_log
+
+# Database files
+*.sql
+*.sqlite
+
+# Docker related
+docker-compose.override.yml
+.env
+
+# Commonly ignored system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+.phpunit.result.cache
+
+# Dependency directories
+node_modules/
+bower_components/
+vendor/
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
